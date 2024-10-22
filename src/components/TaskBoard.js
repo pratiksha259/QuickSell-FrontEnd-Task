@@ -32,17 +32,17 @@ const TaskBoard = ({ tasks, filterOption }) => {
                 {filterOption==='groupBy:status' && key==='Done' && <Done className="status-icon" />}
                 {filterOption==='groupBy:status' && key==='Todo' && <Todo className="status-icon" />}
 
-                {filterOption=='groupBy:priority' && key==0 && <div className='pl'><Np className="status-icon"/>No Priority</div>}
-                {filterOption=='groupBy:priority'&& key==1 && <div className='pl'><Lp className="status-icon" />Low</div>}
-                {filterOption=='groupBy:priority'&& key==2 && <div className='pl'><Mp className="status-icon" />Medium</div>}
-                {filterOption=='groupBy:priority' && key==3 && <div className='pl'><Hp className="status-icon" />High</div>}
-                {filterOption=='groupBy:priority'&& key==4 && <div className='pl'><Up className="status-icon" />Urgent</div>}
+                {filterOption=='groupBy:priority' && key===0 && <div className='pl'><Np className="status-icon"/>No Priority</div>}
+                {filterOption=='groupBy:priority'&& key===1 && <div className='pl'><Lp className="status-icon" />Low</div>}
+                {filterOption=='groupBy:priority'&& key===2 && <div className='pl'><Mp className="status-icon" />Medium</div>}
+                {filterOption=='groupBy:priority' && key===3 && <div className='pl'><Hp className="status-icon" />High</div>}
+                {filterOption=='groupBy:priority'&& key===4 && <div className='pl'><Up className="status-icon" />Urgent</div>}
 
-                {filterOption=='orderBy:priority' && key==0 && <div className='pl'><Np className="status-icon"/>No Priority</div>}
-                {filterOption=='orderBy:priority'&& key==1 && <div className='pl'><Lp className="status-icon" />Low</div>}
-                {filterOption=='orderBy:priority'&& key==2 && <div className='pl'><Mp className="status-icon" />Medium</div>}
-                {filterOption=='orderBy:priority' && key==3 && <div className='pl'><Hp className="status-icon" />High</div>}
-                {filterOption=='orderBy:priority'&& key==4 && <div className='pl'><Up className="status-icon" />Urgent</div>}
+                {filterOption=='orderBy:priority' && key===0 && <div className='pl'><Np className="status-icon"/>No Priority</div>}
+                {filterOption=='orderBy:priority'&& key===1 && <div className='pl'><Lp className="status-icon" />Low</div>}
+                {filterOption=='orderBy:priority'&& key===2 && <div className='pl'><Mp className="status-icon" />Medium</div>}
+                {filterOption=='orderBy:priority' && key===3 && <div className='pl'><Hp className="status-icon" />High</div>}
+                {filterOption=='orderBy:priority'&& key===4 && <div className='pl'><Up className="status-icon" />Urgent</div>}
 
 
   
